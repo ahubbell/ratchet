@@ -12,21 +12,18 @@ a {
   color: #007aff;
 }
 a:active {
-  color: #0062cc;
+  color: #0063cc;
 }
 
 .content {
   background-color: #efeff4;
 }
 
-.h5, h5,
-.h6, h6,
-p {
+.h5, h5, .h6, h6, p {
   color: #8f8f94;
 }
 
-.h5, h5,
-.h6, h6 {
+.h5, h5, .h6, h6 {
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -56,8 +53,8 @@ p {
   border: 1px solid #007aff;
 }
 .btn-primary:active, .btn-primary.active {
-  background-color: #0062cc;
-  border: 1px solid #0062cc;
+  background-color: #0063cc;
+  border: 1px solid #0063cc;
 }
 
 .btn-positive {
@@ -102,7 +99,7 @@ p {
   border: none;
 }
 .btn-link:active, .btn-link.active {
-  color: #0062cc;
+  color: #0063cc;
   background-color: transparent;
 }
 
@@ -218,23 +215,7 @@ p {
   border-bottom: 0;
 }
 
-select,
-textarea,
-input[type="text"],
-input[type="search"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="tel"],
-input[type="color"],
-.input-group {
+select, textarea, input[type="text"], input[type="search"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="color"], .input-group {
   height: 40px;
   padding: 10px 15px;
   border: 1px solid rgba(0, 0, 0, .2);
@@ -252,9 +233,7 @@ input[type="search"]:focus {
   text-align: left;
 }
 
-select,
-textarea,
-.input-group {
+select, textarea, .input-group {
   height: auto;
 }
 
@@ -284,8 +263,7 @@ textarea,
   border-bottom: 0;
 }
 
-.input-row:last-child,
-.input-row label + input {
+.input-row:last-child, .input-row label + input {
   background-image: none;
 }
 
